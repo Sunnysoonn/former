@@ -264,7 +264,7 @@ if __name__ == '__main__':
     # 训练Vision Transformer模型
     # Transformer参数: embed_dim=128, depth=4, num_heads=4
     model = train_model(
-        num_epochs=10, 
+        num_epochs=5, 
         batch_size=64, 
         learning_rate=0.001,
         embed_dim=128,
